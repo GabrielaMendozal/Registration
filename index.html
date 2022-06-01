@@ -12,8 +12,8 @@
     </h1>
     <form action="registration">
         <div>
-            <label>First Name:* </label>
-            <input type="text" name="first_name"> 
+            <label for="first_name">First Name:* </label>
+            <input type="text" name="first_name" id="first_name"> 
         </div>
         <div>
             <label>Last Name:* </label>
@@ -25,11 +25,11 @@
         </div>
         <div>
             <label>Password:* </label>
-            <input type="text" name="Password"> 
+            <input type="password" name="Password"> 
         </div>
         <div>
             <label>Confirm Password:* </label>
-            <input type="text" name="Password"> 
+            <input type="password" name="Password"> 
         </div>
         <div>
             <label>Birthday:* </label>
@@ -61,14 +61,11 @@
             </select>
         </div>
         <div>
-            <input type="checkbox" name="offers" 
-        id="offers" checked >
-        <label for="offers">Yes, I would like to receive periodic email</label>
+            <input type="checkbox" name="offers" id="offers" checked >
+            <label for="offers">Yes, I would like to receive periodic email updates</label>
         </div>
         <input type="submit" value="Create Account" >
-        <div>
-            <label>*Indicates a required field</label>                
-        </div>
+        <p>*Indicates a required field</p>                
 
     </form>
 </body>
